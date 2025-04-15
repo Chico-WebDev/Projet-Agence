@@ -144,15 +144,17 @@ body {
 
 
 main {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
     justify-items: center;
-    justify-content: center;
 }
 
 .pub {
     display: flex;
     gap: 70px;
     padding: 0 50px;
-    margin: 6rem 0;
+    padding: 6rem 0;
     align-items: center;
 }
 
@@ -183,7 +185,7 @@ main {
 .pub .caroussel {
     display: block; 
     text-align: center;
-    width: 1000px;
+    max-width: 100%;      
     border: none; 
     box-shadow: 2px 2px 4px gray;
 }
@@ -200,8 +202,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-    justify-content: center;
-    justify-items: center;
+    place-items: start;
 }
 
 #Produit-1 {
@@ -209,8 +210,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-    justify-content: center;
-    justify-items: center;
+    place-items: center;
 }
 
 #Produit-2 {
@@ -218,9 +218,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-    justify-content: center;
-    justify-items: center;
-    
+    place-items: center;
 }
 
 #Produit .box-content {
@@ -371,6 +369,7 @@ main {
     display: block;
     justify-items: center;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     margin: 2rem 0;
 }
@@ -397,16 +396,18 @@ main {
     padding: 10px;
     align-items: center;
     justify-items: center;
+    align-items: center;
 }
 
 .contact .contact-whatsapp, .contact-phone, .contact-email, .buy {
-    align-items: flex-start;
+    align-items: center;
 }
 
 
 .contact .contact-whatsapp, .contact-phone, .contact-email, i {
     font-size: 2rem;
     color: blueviolet;
+    align-items: center;
 }
 
 .contact .contact-whatsapp, .contact-phone, .contact-email, p {
@@ -451,12 +452,9 @@ main {
 }
 
 .services {
-    margin-bottom: 3rem;
-    padding-top: 20px;
+    padding: 10px 20px 2rem 20px;
     display: flex;
-    gap: 70px;
-    justify-content: center;
-    justify-items: center;
+    gap: 0px;
 }
 
 .service {
@@ -939,6 +937,7 @@ form p {
         grid-template-columns: 1;
         grid-template-rows: 3;
         gap: 10px;
+        place-items: center;
     }
 
     .contact .contact-whatsapp, .contact-phone, .contact-email, i {
@@ -969,7 +968,9 @@ form p {
 
     .services {
         display: grid;
+        gap: 10px;
         grid-template-columns: repeat(2, 1fr);
+        place-content: center;
     }
 
 
@@ -983,7 +984,7 @@ form p {
     }
     
     .service p {
-        margin-top: 10px;
+        padding-top: 10px;
         gap: 3px;
         font-size: 0.8rem;
     }
@@ -1105,7 +1106,7 @@ form p {
 }
 
 .input-content input {
-    padding: 4px;
+    padding: 5px;
     width: 100%;
     border-radius: 5px;
     font-size: 0.6rem;
@@ -1124,6 +1125,10 @@ form p {
 .service i {
     font-size: 1.5rem;
     color: gray;
+}
+
+.right .autor {
+    font-size: 0.9rem;
 }
 
 }
