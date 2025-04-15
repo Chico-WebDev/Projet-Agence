@@ -546,6 +546,10 @@ form p {
     color: rgb(74, 74, 74);
 }
 
+.right .autor, .avis, .thanks {
+    font-size: 1rem;
+}
+
 @media (max-width: 1100px) {
     #Acceuil {
         padding: 10px 15px;
