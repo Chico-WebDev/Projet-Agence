@@ -142,6 +142,12 @@ body {
     border-radius: 5px;
 }
 
+
+main {
+    justify-items: center;
+    justify-content: center;
+}
+
 .pub {
     display: flex;
     gap: 70px;
@@ -194,6 +200,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 
 #Produit-1 {
@@ -201,6 +209,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    justify-content: center;
+    justify-items: center;
 }
 
 #Produit-2 {
@@ -208,6 +218,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    justify-content: center;
+    justify-items: center;
     
 }
 
@@ -855,9 +867,6 @@ form p {
     width: 350px;
 }
 
-main {
-    justify-items: center;
-}
 
 .pub {
     display: grid;
@@ -1074,16 +1083,16 @@ form p {
     }
 
     .avis, .autor, .thanks {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .propos p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     
 form p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .input-content {
@@ -1092,16 +1101,16 @@ form p {
 }
 
 .input-content input {
-    padding: 5px;
+    padding: 4px;
     width: 100%;
     border-radius: 5px;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 
 .input-content .send {
-    padding: 5px 8px;
+    padding: 5px 4px;
     border-radius: 5px;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
 }
 
 .media, .pay, i {
