@@ -85,19 +85,27 @@ body {
     transition: 0.8s;
 }
 
+
 .buy {
-    border: none;
-    padding: 10px 40px;
+    border: 1px solid blueviolet;
+    padding: 10px 30px;
     border-radius: 5px;
     background: linear-gradient(to right, rgb(161, 30, 255), rgb(226, 43, 214));
     color: white;
     box-shadow: 2px 2px 4px gray;
+    transition: 0.8s;
+}
+
+.buy:hover {
+    border: 1px solid blueviolet;
+    background: transparent;
+    color:  rgb(161, 30, 255);
 }
 
 .container-affiche {
     display: flex;
     gap: 30px;
-    padding: 0 50px;
+    padding: 0 20px;
     margin-top: 6rem;
     align-items: center;
 }
@@ -153,7 +161,7 @@ main {
 .pub {
     display: flex;
     gap: 70px;
-    padding: 0 50px;
+    padding: 0 20px;
     padding: 6rem 0;
     align-items: center;
 }
@@ -186,6 +194,7 @@ main {
     display: block; 
     text-align: center;      
     border: none; 
+    width: 100%;
     box-shadow: 2px 2px 4px gray;
 }
 
@@ -433,12 +442,19 @@ main {
 }
 
 .contact  .btn {
-    border: none;
+    border:  1px solid blueviolet;
     padding: 8px 30px;
     border-radius: 5px;
     background: linear-gradient(to right, rgb(161, 30, 255), rgb(226, 43, 214));
     color: white;
     box-shadow: 2px 2px 4px gray;
+    transition: 0.7s;
+}
+
+.contact .btn:hover {
+    border: 1px solid blueviolet;
+    background: transparent;
+    color:  rgb(161, 30, 255);
 }
 
 #Apropos {
@@ -467,13 +483,15 @@ main {
 .services {
     padding: 10px 20px 2rem 20px;
     display: flex;
-    gap: 0px;
+    gap: 50px;
+    justify-content: center;
 }
 
 .service {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
     color: gray;
 }
 
