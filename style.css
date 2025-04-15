@@ -184,8 +184,7 @@ main {
 
 .pub .caroussel {
     display: block; 
-    text-align: center;
-    max-width: 100%;      
+    text-align: center;      
     border: none; 
     box-shadow: 2px 2px 4px gray;
 }
@@ -202,7 +201,8 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-    place-items: start;
+    place-items: center;
+    text-align: center;
 }
 
 #Produit-1 {
@@ -211,6 +211,7 @@ main {
     gap: 20px;
     padding: 20px;
     place-items: center;
+    text-align: center;
 }
 
 #Produit-2 {
@@ -219,6 +220,7 @@ main {
     gap: 20px;
     padding: 20px;
     place-items: center;
+    text-align: center;
 }
 
 #Produit .box-content {
@@ -366,10 +368,10 @@ main {
   
 
 #Contact {
-    display: block;
     justify-items: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 20px;
     margin: 2rem 0;
 }
@@ -886,6 +888,8 @@ form p {
 #Produit, #Produit-1, #Produit-2 {
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
+    justify-items: center;
+    place-items: center;
     justify-content: center;
 }
 
@@ -934,15 +938,16 @@ form p {
 
     #Contact .contact {
         display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 3;
+       
         gap: 10px;
         place-items: center;
+        text-align: center;
     }
 
     .contact .contact-whatsapp, .contact-phone, .contact-email, i {
         font-size: 2rem;
         color: blueviolet;
+        align-items: center;
     }
     
     #Contact p {
