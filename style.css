@@ -203,6 +203,10 @@ main {
     padding: 20px;
     place-items: center;
     text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
 }
 
 #Produit-1 {
@@ -210,8 +214,12 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
-    place-items: center;
+    justify-content: center;
+    justify-items: center;
     text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #Produit-2 {
@@ -221,6 +229,9 @@ main {
     padding: 20px;
     place-items: center;
     text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #Produit .box-content {
@@ -893,9 +904,7 @@ form p {
     justify-content: center;
 }
 
-#Produit, #Produit-1, #Produit-2, .card-content {
-    width: 500px;
-}
+
 
 #pictures .carousel-inner .carousel-item img {
     width: 350px;
@@ -918,9 +927,7 @@ form p {
         width: 300px;
     }
     
-    #Produit, #Produit-1, #Produit-2, .card-content {
-        width: 400px;
-    }
+  
 
     .media-pay .media, .pay {
         display: flex;
@@ -1022,20 +1029,22 @@ form p {
 
 .input-content {
     display: flex;
+    flex-direction: column;
     gap: 2px;
+    align-items: flex-start;
 }
 
 .input-content input {
-    padding: 6px;
+    padding: 8px;
     width: 100%;
     border-radius: 5px;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .input-content .send {
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 
@@ -1079,9 +1088,7 @@ form p {
         width: 280px;
     }
     
-    #Produit, #Produit-1, #Produit-2, .card-content {
-        width: 280px;
-    }
+   
     
     #pictures .carousel-inner .carousel-item img {
         width: 300px;
@@ -1111,16 +1118,16 @@ form p {
 }
 
 .input-content input {
-    padding: 5px;
+    padding: 6px;
     width: 100%;
     border-radius: 5px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 
 .input-content .send {
-    padding: 5px 4px;
+    padding: 5px;
     border-radius: 5px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 
 .media, .pay, i {
